@@ -48,29 +48,41 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 
 The machines on the internal network are not exposed to the public Internet. 
 
-Only My Public IP address 20.94.213.11 machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
-- _TODO: Add whitelisted IP addresses_
+Only My Public IP address 99.235.36.204 can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
+- 99.235.36.204_
+- 20.85.246.40_ 
 
 Machines within the network can only be accessed by Local workstation an d.
-- _TODO: Which machine did you allow to access your ELK VM? What was its IP address?_
+
+- Which machine did you allow to access your ELK VM? What was its IP address?_
+* Jump box Vm, It has a private ip address 10.0.0.4
 
 A summary of the access policies in place can be found in the table below.
 
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
-| Jump Box | Yes/No              | 10.0.0.1 10.0.0.2    |
-|          |                     |                      |
-|          |                     |                      |
+| Jump Box | No                  |    10.0.0.4          | 
+| Web1     | No                  |    10.0.0.8          | 
+| Web2     | No                  |    10.0.0.9          |
+| Elk      | No                  |.   10.1.0.4          |
 
 ### Elk Configuration
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
-- _TODO: What is the main advantage of automating configuration with Ansible?_
+
+- What is the main advantage of automating configuration with Ansible?_
+* The advantage is accuracy also we can input commands into multiple servers from playbook and its time saving.
 
 The playbook implements the following tasks:
-- _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
-- ...
-- ...
+-nIn 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
+Install docker.io
+Install python3-pip
+Install Docker module
+Increase virtual memory
+Use more memory
+download and launch a docker elk container
+Enable service docker on boot
+
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
