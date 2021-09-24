@@ -3,10 +3,9 @@
 The files in this repository were used to configure the network depicted below.
 
 ![Network Cloud Diagram](https://github.com/Rizo3295/Project-1/blob/bb7e72b306a976bcc5c0e4eac3606e95ec348c5a/Diagram.png)
-These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
+These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the Fiebeat.yml file may be used to install only certain pieces of it, such as Filebeat.
 
-  - _TODO: Enter the playbook file._
-
+  - [Filebeat Playbook](https://github.com/Rizo3295/Project-1/blob/b2d3843b2ef1ab9191a44e81b2e5675c4d831cbd/Filebeat.yml)
 This document contains the following details:
 - Description of the Topologu
 - Access Policies
