@@ -61,7 +61,7 @@ A summary of the access policies in place can be found in the table below.
 
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
-| Jump Box | No                  |    10.0.0.4          | 
+| Jump Box | yes                 |    20.185.178.18     | 
 | Web1     | No                  |    10.0.0.8          | 
 | Web2     | No                  |    10.0.0.9          |
 | Elk      | No                  |.   10.1.0.4          |
@@ -86,7 +86,7 @@ Enable service docker on boot
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.png)
+![Screenshot of docker ps output](https://github.com/Rizo3295/Project-1/blob/0c6749ae802f8bcae42ed5b7308d28f09ed8487e/Elk-Server.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
