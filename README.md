@@ -21,7 +21,8 @@ The main purpose of this network is to expose a load-balanced and monitored inst
 
 * Load balancing ensures that the application will be highly efficient,Improves application responsiveness also increase availability of applications and websites for users in addition to restricting traffic to the network.
 
-- What aspect of security do load balancers protect? What is the advantage of a jump box?_
+- What aspect of security do load balancers protect? What is the advantage of a jump box?
+
 The off-loading function of a load balancer defends an organization against distributed denial-of-service (DDoS) attacks by shifting attack traffic. It does this by shifting attack traffic from the corporate server to a public cloud provider.
 
 * A jump box can give access to the user from a single node that can be secured and monitored. A Jumpbox is a (special-purpose) computer on a network typically used to access devices in a separate security zone. No hardware cost, access, and ease to setup.
