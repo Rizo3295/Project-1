@@ -62,12 +62,12 @@ A summary of the access policies in place can be found in the table below.
 
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
-| Jump Box | No                  |    20.185.178.18     | 
+| Jump Box | yes                 |    20.185.178.18     | 
 | Web1     | No                  |    10.0.0.8          | 
 | Web2     | No                  |    10.0.0.9          |
-| Elk      | No                  |    10.1.0.4          |
+| Elk      | yes                 |                      |
 
-Jump box is only accessible through my source public ip address and is hence not publicly available due to my NSG rules.
+Jump box is only accessible through my source public ip address and due to my NSG rules.
 
 ### Elk Configuration
 
