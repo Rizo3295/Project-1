@@ -65,7 +65,7 @@ A summary of the access policies in place can be found in the table below.
 | Jump Box | yes                 |    20.185.178.18     | 
 | Web1     | No                  |    10.0.0.8          | 
 | Web2     | No                  |    10.0.0.9          |
-| Elk      | yes                 |                      |
+| Elk      | yes                 |    52.156.124.233    |
 
 Jump box is only accessible through my source public ip address and due to my NSG rules.
 
